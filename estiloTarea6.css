@@ -1,0 +1,46 @@
+#div1, #div2, #div3 {
+    display: inline-block;
+    vertical-align: top;
+    width: 240px;
+    height: 300px;
+    margin: 18px;
+    padding: 8px;
+    border: 3px solid rgb(12, 47, 87);
+    box-sizing: border-box;
+}
+
+#div1 {
+    line-height: 1.05;
+    overflow: hidden;
+    white-space: normal;
+    text-overflow: ellipsis;
+    display: -webkit-inline-box;
+    -webkit-box-orient: vertical;
+}
+
+#div1 .destacado-rojo {
+    font-size: 18px;
+    text-shadow: 3px 3px 0px red; 
+}
+
+#div2 {
+    line-height: 1.10;
+    overflow: hidden;
+}
+
+#div2 .destacado-azul {
+    font-size: 18px;
+    text-shadow: -3px 3px 0px blue;
+}
+
+#div3 {
+    text-align: justify;
+    color: #8B4513;
+    line-height: 1.20;
+    overflow: auto;
+}
+
+#div3 .destacado-verde {
+    font-size: 18px;
+    text-shadow: 0px 0px 8px #00ff00, 0px 0px 15px #00ff00;
+}
