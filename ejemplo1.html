@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ejemplo</title>
+<style>
+#recuadro1
+
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+body 
+{
+background-color:white;
+margin:50px;
+}
+
+div{
+    margin: 10px;
+}
+
+#recuadro1
+{
+border-radius: 20px;
+background-color:#ddd;
+width:200px;
+padding:10px;
+box-shadow: -10px -5px  10px rgb(40, 74, 146);
+}
+
+#recuadro2
+{
+border-radius: 20px 50px 50px 20px;
+background-color:#ddd;
+width:200px;
+padding:10px;
+box-shadow: 10px -5px  10px rgba(40, 74, 146, 0.5);
+}
+
+#recuadro3
+{
+border-top-left-radius: 20px;
+border-top-right-radius: 40px;
+border-bottom-right-radius: 50px;
+border-bottom-left-radius: 30px;
+background-color:#ddd;
+width:200px;
+padding:10px;
+box-shadow: 10px -5px  10px rgba(40, 74, 146, 0.5) inset;
+
+}
+
+#recuadro4
+{
+border-radius: 20px 40px 50px 30px;
+background-color:#ddd;
+width:200px;
+padding:10px;
+box-shadow: 0 0 40px rgba(40, 74, 146, 0.5) inset;
+}
+.titulo
+{
+    color: #7e4166;
+    text-shadow: 5px -5px 5px #640d97;
+}
+.titulo:hover{
+    color: #25bb25;
+    font-size: 20px ;
+    text-shadow: 10px 5px 10px rgb(10, 100, 65);
+}
+.recuadro2:hover{
+    opacity: 0.5; /*0 a 1*/;
+}
+.titulo2 {
+    color: rgb(25, 43, 23);
+    text-shadow: 
+        5px 5px 5px #ff002b, 
+        5px 5px 5px #25bb25, 
+        5px 5px 5px #4400ff;
+}
+</style>
+</head>
+<body>
+
+<div id="recuadro1">
+<h3 class="titulo">Recuadro 1</h3>
+<p>Podemos indicar un único valor que se asignará a los cuatro
+vértices</p>
+</div>
+
+<div id="recuadro2">
+<h3 class="titulo2">Recuadro 1</h3>
+<p>Podemos indicar un único valor que se asignará a los cuatro
+vértices</p>
+</div>
+
+<div id="recuadro3">
+<h3>Recuadro 1</h3>
+<p>Podemos indicar un único valor que se asignará a los cuatro
+vértices</p>
+</div>
+
+<div id="recuadro4">
+<h3>Recuadro 1</h3>
+<p>Podemos indicar un único valor que se asignará a los cuatro
+vértices</p>
+</div>
+
+</body>
+</html>

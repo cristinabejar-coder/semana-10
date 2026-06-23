@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 5</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            padding: 40px;
+        }
+        .pricing-table {
+            display: table;
+            width: 100%;
+            max-width: 800px;
+            border-collapse: separate;
+            border-spacing: 0;
+            margin: 0 auto;
+        }
+        .pricing-column {
+            display: table-cell;
+            width: 33.33%;
+            vertical-align: top;
+            text-align: center;
+            border: 1px solid #e0e0e0;
+            border-bottom: none;
+        }
+        .pricing-column:not(:last-child) {
+            border-right: none;
+        }
+
+        .pricing-header {
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            color: #444444;
+            border-bottom: 1px solid #e0e0e0;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+
+        .check {
+            color: #4caf50; 
+            font-weight: bold;
+        }
+
+        .cross {
+            color: #f44336; 
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="pricing-table">
+        
+        <div class="pricing-column standard">
+            <div class="pricing-header">Standard</div>
+            <div class="pricing-row"><span class="check">✔</span></div>
+            <div class="pricing-row"><span class="check">✔</span></div>
+            <div class="pricing-row"><span class="cross">✘</span></div>
+            <div class="pricing-row"><span class="cross">✘</span></div>
+        </div>
+
+        <div class="pricing-column professional">
+            <div class="pricing-header">Professional</div>
+            <div class="pricing-row"><span class="check">✔</span></div>
+            <div class="pricing-row"><span class="check">✔</span></div>
+            <div class="pricing-row"><span class="check">✔</span></div>
+            <div class="pricing-row"><span class="cross">✘</span></div>
+        </div>
+
+        <div class="pricing-column enterprise">
+            <div class="pricing-header">Enterprise</div>
+            <div class="pricing-row"><span class="check">✔</span></div>
+            <div class="pricing-row"><span class="check">✔</span></div>
+            <div class="pricing-row"><span class="check">✔</span></div>
+            <div class="pricing-row"><span class="check">✔</span></div>
+        </div>
+
+    </div>
+
+</body>
+</html>
